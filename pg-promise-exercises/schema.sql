@@ -6,11 +6,11 @@
 --
 
 CREATE TABLE "books" (
-        "id" integer NOT NULL,
-        "title" text NOT NULL,
-        "author_id" integer,
-        "subject_id" integer,
-        Constraint "books_id_pkey" Primary Key ("id")
+  "id" integer NOT NULL,
+  "title" text NOT NULL,
+  "author_id" integer,
+  "subject_id" integer,
+    Constraint "books_id_pkey" Primary Key ("id")
 );
 
 --
